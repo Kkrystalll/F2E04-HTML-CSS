@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- (header>nav>ul>li*4{選單$})+(main>(section>h2{標題}+p{內容}+ul>li*3{項目$})+(aside>h3{側欄}+ul>li*2{連結$}))+(footer>p{這是一個段落}) -->
+    <!-- header>nav>ul>li*4{選單$}^^^main>(section>h2{標題}+p{內容}+ul>li*3{項目$})+(aside>h3{側欄}+ul>li*2{連結$})^^^footer>p{這是一個段落} -->
+
+    <!-- header>nav>ul>li*4{選單$} -->
+    <header>
+      <nav>
+        <ul>
+          <li>選單1</li>
+          <li>選單2</li>
+          <li>選單3</li>
+          <li>選單4</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main>(section>h2{標題}+p{內容}+ul>li*3{項目$})+(aside>h3{側欄}+ul>li*2{連結$}) -->
+    <main>
+      <section>
+        <h2>標題</h2>
+        <p>內容</p>
+        <ul>
+          <li>項目1</li>
+          <li>項目2</li>
+          <li>項目3</li>
+        </ul>
+      </section>
+      <aside>
+        <h3>側欄</h3>
+        <ul>
+          <li>連結1</li>
+          <li>連結2</li>
+        </ul>
+      </aside>
+    </main>
+    <!-- footer>p{這是一個段落} -->
+    <footer>
+      <p>這是一個段落</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+h2 {
+  color: #0a0a60;
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* li {
+  color: red;
+} */
+
+.hint {
+  color: red;
+}
+
+.big-font{
+  font-size: 24px;
+}
