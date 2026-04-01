@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>表格上課練習</title>
+    <link rel="stylesheet" href="" />
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 4px;
+      }
+
+      .sky {
+        background-color: skyblue;
+      }
+
+      .pink {
+        background-color: pink;
+      }
+
+      .flash {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <!-- <col span="2" class="sky" />
+        <col span="2" class="pink" />
+        <col span="2" class="flash" /> -->
+      </colgroup>
+      <thead>
+        <tr>
+          <th>姓名</th>
+          <th>性別</th>
+          <th>上份工作</th>
+          <th>生日</th>
+          <th>興趣</th>
+          <th>年齡</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="pink">
+          <td>王小明</td>
+          <td>男</td>
+          <td>行銷</td>
+          <td>2000/09/30</td>
+          <td>吃</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>李小美</td>
+          <td>女</td>
+          <td>學生</td>
+          <td>2002/11/26</td>
+          <td>睡</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="5">平均年齡</th>
+          <td>19</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+
+    <table>
+      <thead>
+        <tr>
+          <th>姓名</th>
+          <th>年紀</th>
+          <th>興趣</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">K</td>
+          <td>18</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">平均年齡</th>
+          <td>20</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr />
+    <table>
+      <caption>
+        學生資料
+      </caption>
+      <thead>
+        <tr>
+          <th>姓名</th>
+          <th>年齡</th>
+          <th>性別</th>
+          <th>電話</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>小美</td>
+          <td>18</td>
+          <td>女</td>
+          <td>09...</td>
+        </tr>
+        <tr>
+          <td>小明</td>
+          <td>30</td>
+          <td>男</td>
+          <td>09...</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
