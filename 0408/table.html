@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>會計日報表</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 4px;
+      }
+
+      th {
+        background-color: rgb(172, 207, 216);
+      }
+
+      .bg-pink {
+        background-color: pink;
+      }
+
+      .🥰 {
+        background-color: red;
+      }
+
+      div {
+        background-color: green;
+      }
+
+      #col6 {
+        background-color: yellow;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .font-64 {
+        font-size: 64px;
+      }
+
+      .font-red {
+        color: red;
+      }
+
+      #title {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ul>li#list$*8 -->
+    <ul>
+      <li id="list1"></li>
+      <li id="list2"></li>
+      <li id="list3"></li>
+      <li id="list4"></li>
+      <li id="list5"></li>
+      <li id="list6"></li>
+      <li id="list7"></li>
+      <li id="list8"></li>
+    </ul>
+    <!-- h1.font-64.font-red#title{表格} -->
+    <h1 class="font-64 font-red" id="title">表格</h1>
+    <table>
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col class="🥰" />
+        <!-- col.bg-pink -->
+        <col class="bg-pink" />
+        <!-- col#col6 -->
+        <!-- col.blue#col6 -->
+        <!-- col#col6.blue -->
+        <col class="blue" id="col6" />
+      </colgroup>
+      <caption>
+        會計日報表
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="3" rowspan="2">項目</th>
+          <th rowspan="2">折舊或推銷年</th>
+          <th rowspan="2">預計淨值</th>
+          <th rowspan="2">折舊或推銷方</th>
+          <th colspan="5">年度</th>
+        </tr>
+        <tr>
+          <th>年</th>
+          <th>年</th>
+          <th>年</th>
+          <th>年</th>
+          <th>年</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="3">成本</th>
+          <th rowspan="2">會計</th>
+          <th>原值</th>
+          <td>---</td>
+          <td>---</td>
+          <td>---</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>帳面淨額</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th colspan="2">計稅</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th rowspan="2">折舊或攤消</th>
+          <th colspan="2">會計</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th colspan="2">稅法</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="6">本期納稅調整</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

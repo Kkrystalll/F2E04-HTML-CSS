@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h2,
+h3 {
+  color: black;
+  font-size: 32px;
+}
+
+.inline-demo{
+  background-color: red;
+  /* 無效 */
+  width: 600px;
+  /* 上下無效左右有效 */
+  margin: 100px 40px;
+}
+
+.font-red {
+  color: red;
+  font-size: 30px;
+}
+
+.faq {
+  color: #626264;
+  background-color: #ebeb90;
+  width: 600px;
+  margin: 100px auto;
+}
+
+.faq-link {
+  color: #13ab67;
+}
