@@ -1,0 +1,14 @@
+section{
+  /* margin: 100px; */
+  background-color: #e7cccc;
+}
+
+form{
+  width: 640px;
+  margin: 0 auto;
+  background-color: #abc9ce;
+}
+
+.country-select{
+  border-top: 10px solid purple;
+}
