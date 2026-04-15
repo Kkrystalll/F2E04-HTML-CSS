@@ -1,0 +1,120 @@
+/* html{
+  font-size: 12px;
+} */
+
+section{
+  margin: 100px;
+}
+
+video{
+  width: 1000px;
+}
+
+.card{
+  background-color: #ffa;
+  width: 300px;
+}
+
+.card-img{
+  /* width: 300px; */
+  width: 100%;
+  /* height: 225px; */
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.card-title{
+  font-size: 30px;
+}
+
+.card-button{
+  font-size: 20px;
+  background-color: #aaf;
+}
+
+.box{
+  margin-top: 100px;
+  width: 50%;
+  /* height: 300px; */
+  background-color: #fa0;
+}
+
+.banner{
+  background-color: red;
+  color: white;
+  font-size: 128px;
+  font-weight: 700;
+  text-align: center;
+  /* width: 1280px; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.center-block{
+  background-color: #fa0;
+  text-align: center;
+}
+
+.center-btn{
+  background-color: #ffa;
+  padding: 10px;
+}
+
+li{
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.faq-section{
+  background-color: #ffa;
+  margin: 0 auto;
+  width: 33.33%;
+}
+
+.faq-subtitle{
+  font-size: 12px;
+  color: #13ab67;
+  text-align: center;
+}
+
+.faq-title{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.faq-content{
+  color: #626264;
+  /* font-size: 14px; */
+}
+
+.border-b{
+  border-bottom: 1px solid #626264;
+}
+
+.faq-question{
+  color: black;
+  font-weight: 600;
+  /* font-size: 2rem; */
+}
+
+.link{
+  color: #13ab67;
+}
+
+.faq-btn-wrap{
+  text-align: center;
+}
+
+.faq-btn{
+  background-color: #13ab67;
+  color: white;
+  padding: 11px 23px;
+  border-radius: 4px;
+}
+
+.aaa{
+  font-size: 10px;
+  width: 1024px;
+}
+

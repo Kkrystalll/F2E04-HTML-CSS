@@ -35,3 +35,12 @@
 
 ### 作業
 - Google 表單
+
+## 04/15 上課進度
+- Google 表單 code review
+- HTML 交互元素 (講義 p67~p73)
+- HTML 內嵌內容 (講義 p74~p77)
+- HTML 交互元素 (講義 p111~p113)
+- HTML 其他元素 (講義 p114~p117)
+- css 絕對單位. 相對單位 (講義 p131~p133)
+- css width. height (講義 p176)

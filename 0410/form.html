@@ -1,24 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>表單</title>
-    <link rel="stylesheet" href="../reset.css">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="form.css" />
   </head>
   <body>
     <section>
-      <img src="../images/image_2328476.jpg" alt="貓咪圖">
+      <img src="../images/image_2328476.jpg" alt="貓咪圖" />
+      <h1>熊本熊</h1>
+      <img src="../images/kumamon.png" alt="" />
+      <img src="../images/kumamon.webp" alt="" />
 
-      <img src="../images/wifi.svg" alt="">
-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-        <!--!Font Awesome Free v5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-        <path
-          d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z"
-        />
-      </svg>
+      <h1>wifi 圖</h1>
+      <img src="../images/wifi.svg" alt="" />
 
       <form action="https://www.google.com/search" method="get">
         <div class="country-select">
@@ -37,23 +34,23 @@
         <fieldset>
           <legend>最喜歡的食物</legend>
           <label>
-            <input type="radio" name="favorite_food" id="chinese" checked>
+            <input type="radio" name="favorite_food" id="chinese" checked />
             中式
           </label>
-          <br>
+          <br />
           <div>
-            <input type="radio" name="favorite_food" id="western">
+            <input type="radio" name="favorite_food" id="western" />
             <label for="western">西式</label>
           </div>
-          <input type="radio" name="favorite_food" id="japanese">
+          <input type="radio" name="favorite_food" id="japanese" />
           <label for="japanese">日式</label>
         </fieldset>
         <div>
           <p>喜歡的飲料（複選）</p>
           <label for="coffee">咖啡</label>
-          <input type="checkbox" name="favorite_drink" id="coffee">
+          <input type="checkbox" name="favorite_drink" id="coffee" />
           <label for="tea">茶</label>
-          <input type="checkbox" name="favorite_drink" id="tea">
+          <input type="checkbox" name="favorite_drink" id="tea" />
         </div>
         <label for="qa">問題與建議:</label>
         <textarea name="" id="qa" rows="5" cols="33"></textarea>
@@ -66,7 +63,7 @@
             placeholder="請輸入搜尋文字..."
             autocomplete="off"
             required
->
+          />
         </label>
         <input
           type="number"
@@ -75,35 +72,35 @@
           max="100"
           step="5"
           placeholder="請輸入搜尋數字..."
->
-        <input type="email" placeholder="email">
-        <input type="password" placeholder="密碼">
-        <input type="tel" placeholder="台灣手機" pattern="^09\d{8}$">
-        <input type="url" placeholder="網站地址">
+        />
+        <input type="email" placeholder="email" />
+        <input type="password" placeholder="密碼" />
+        <input type="tel" placeholder="台灣手機" pattern="^09\d{8}$" />
+        <input type="url" placeholder="網站地址" />
         <!-- 時間 -->
-        <input type="date" name="" min="2026-04-11">
-        <input type="datetime-local" name="" id="">
+        <input type="date" name="" min="2026-04-11" />
+        <input type="datetime-local" name="" id="" />
         <!-- 其他 -->
-        <input type="color">
-        <input type="file">
-        <input type="range">
-        <input type="search">
-        <input type="hidden" name="網紅代碼" value="02_楊子玉">
+        <input type="color" />
+        <input type="file" />
+        <input type="range" />
+        <input type="search" />
+        <input type="hidden" name="網紅代碼" value="02_楊子玉" />
         <progress value="32" max="100"></progress>
         <output></output>
         <!-- 提交表單 -->
         <button type="submit">送出表單</button>
-        <input type="submit" value="input 的 submit">
-        <input type="image" src="../images/kumamon.png" alt="">
+        <input type="submit" value="input 的 submit" />
+        <input type="image" src="../images/kumamon.png" alt="" />
         <button>
-          <img src="../images/kumamon.png" alt="">
+          <img src="../images/kumamon.png" alt="" />
           jfjkhjglkh
         </button>
         <!-- 按鈕 -->
         <button type="button">button 的 button</button>
-        <input type="button" value="input 的 button">
+        <input type="button" value="input 的 button" />
         <button type="reset">重置</button>
-        <input type="reset" value="input 的 reset">
+        <input type="reset" value="input 的 reset" />
       </form>
       <button type="button">form 外的 btn</button>
     </section>
