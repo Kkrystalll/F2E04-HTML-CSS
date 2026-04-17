@@ -1,0 +1,54 @@
+section{
+  width: 1000px;
+  background-color: #faa;
+  margin: 0 auto 100px;
+  overflow: hidden;
+}
+
+.px-10{
+  width: 980px;
+  padding: 0 10px;
+
+  /*
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 0;
+  padding-left: 10px;
+  */
+}
+
+.card{
+  background-color: #ffa;
+  width: 186px;
+  margin: 20px;
+  border: 2px solid #aaa;
+  padding: 10px;
+  float: left;
+}
+
+.border-card{
+  width: 210px;
+  box-sizing: border-box;
+}
+
+.mx-10{
+  margin: 20px 10px;
+}
+
+.w-201{
+  width: 201px;
+}
+
+/* .card + .card{
+  margin: 20px 20px 20px 0;
+} */
+
+.m-20{
+  margin: 20px 20px 20px 0;
+}
+
+.card-img{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
