@@ -50,3 +50,10 @@
 - css width. height (講義 p176)
 - css 選取方式 (講義 p138~p143)
 - css 優先級計算 (講義 p144)
+
+## 04/21 上午進度
+- css 偽類選取器 (講義 p145~p158)
+- css 文字樣式 (講義 p159~p160)
+
+### 練習
+- [選取器小遊戲](https://flukeout.github.io)

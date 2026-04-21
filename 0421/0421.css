@@ -1,0 +1,100 @@
+body{
+  font-family: "Playwrite NO", cursive;
+}
+
+section{
+  margin: 100px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.link{
+  padding: 10px;
+  background-color: #afa;
+  border-radius: 4px;
+}
+
+.link:visited{
+  background-color: #faa;
+}
+
+.link:focus{
+  background-color: #aaf;
+}
+
+.link:hover{
+  background-color: #ffa;
+}
+
+.link:active{
+  background-color: orange;
+}
+
+li{
+  border-bottom: 1px solid black;
+  padding: 4px;
+}
+
+li:last-of-type{
+  border-bottom: none;
+}
+
+/* li:nth-child(5){
+  background-color: #aaa;
+} */
+
+/* li:nth-child(-n+3){
+  background-color: #aaa;
+} */
+
+.box:not(div){
+  background-color: #faf;
+}
+
+/* .box:first-child{
+  color: red;
+} */
+
+/* .box:first-of-type{
+  color: red;
+} */
+
+/* .box :first-child{
+  color: red;
+} */
+
+/* .box :first-of-type{
+  color: red;
+} */
+
+/* p:first-child{
+  color: blue;
+} */
+
+/* p:first-child{
+  color: blue;
+} */
+
+/* .box p:first-child{
+  color: green;
+} */
+
+/* .box p:first-of-type{
+  color: green;
+} */
+
+/* .box:first-child p{
+  color: orange;
+} */
+
+/* .box:first-of-type p{
+  color: orange;
+} */
+
+/* section:last-child{
+  background-color: aqua;
+} */
