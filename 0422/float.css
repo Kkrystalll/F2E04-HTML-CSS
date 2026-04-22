@@ -1,0 +1,88 @@
+section{
+  margin: 100px;
+}
+
+.float-card-wrap{
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.float-card{
+  padding: 20px;
+}
+
+.float-card:nth-of-type(odd){
+  background-color: #acb6e0;
+}
+
+.float-card:nth-of-type(even){
+  background-color: #9C73A9;
+}
+
+.card-img{
+  width: 400px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.float-card:nth-of-type(odd) .card-img{
+  float: left;
+  margin-right: 40px;
+}
+
+.float-card:nth-of-type(even) .card-img{
+  float: right;
+  margin-left: 40px;
+}
+
+.card-title{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.clear{
+  clear: both;
+}
+
+.post{
+  background-color: #faa;
+  width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.post img{
+  width: 200px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.post img:first-of-type{
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.post img:nth-of-type(2){
+  float: right;
+  margin: 20px 0 20px 20px;
+}
+
+.float-img{
+  width: 300px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  float: right;
+}
+
+.float-content{
+  background-color: #aaa;
+}
+
+/* .float-wrap div{
+  clear: both;
+} */
+
+/* .clear{
+  clear: both;
+} */
