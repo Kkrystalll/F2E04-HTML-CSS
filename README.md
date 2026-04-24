@@ -63,3 +63,12 @@
 - css 背景 (講義 p165~p167)
 - css 邊框.外框 (講義 p168~p172)
 - css Float (講義 p182~p183)
+
+## 04/24 上課進度
+- css Display (講義 p184~p191)
+
+### 練習
+- [Flex 青蛙遊戲](https://flexboxfroggy.com)
+
+### 作業
+- [inline](https://inline.app/zh/#1563096674001-9a03baa7-aa08)
