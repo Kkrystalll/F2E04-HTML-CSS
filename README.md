@@ -72,3 +72,9 @@
 
 ### 作業
 - [inline](https://inline.app/zh/#1563096674001-9a03baa7-aa08)
+
+## 04/29 上課進度
+- css list-style (講義 p173)
+- css 其他常用 (講義 p174~p175)
+- css max & min width. height (講義 p176)
+- css position (講義 p192~p194)

@@ -1,0 +1,33 @@
+body{
+  margin-top: 68px;
+}
+
+header{
+  height: 68px;
+  background-color: #260339;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.banner{
+  width: 100%;
+  aspect-ratio: 4 / 1;
+  object-fit: cover;
+}
+
+.section-title{
+  background-color: #774A8E;
+  height: 68px;
+  position: sticky;
+  top: 68px;
+}
+
+/* .navbar{
+  height: 68px;
+  background-color: #faa;
+  position: sticky;
+  top: 0;
+} */
