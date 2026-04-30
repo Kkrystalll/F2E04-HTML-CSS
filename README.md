@@ -78,3 +78,10 @@
 - css 其他常用 (講義 p174~p175)
 - css max & min width. height (講義 p176)
 - css position (講義 p192~p194)
+
+## 04/30 上課進度
+- inline 作業 code review
+- css transform (講義 p195)
+- css 函數 (講義 p197)
+- css 三角形 (講義 p199)
+- css 偽元素 (講義 p198~p200)
