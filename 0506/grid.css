@@ -1,0 +1,122 @@
+section{
+  margin: 100px;
+}
+
+.grid-align{
+  background-color: #aaa;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-rows: 100px; */
+  justify-content: right;
+  /* align-content: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+}
+
+.box{
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: #faa;
+}
+
+.box9{
+  background-color: red;
+  /* justify-self: right;
+  align-self: end; */
+  /* margin: auto; */
+
+  /* 線 + 面 */
+  /* grid-column: 1 / span 4; */
+  /* 線 */
+  /* grid-row: 3 / 5; */
+
+  /* 點 */
+  /* grid-area: 2 / 3 / 4 / 5; */
+  /* 點 + 面 */
+  /* grid-area: 2 / 3 / span 2 / span 2; */
+
+  /* 線  */
+  grid-column-start: span 6;
+  /* grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4; */
+}
+
+.fake-body{
+  height: 100vh;
+  background-color: #aaa;
+  display: grid;
+  /* grid-template-columns: 10% auto 10%;
+  grid-template-rows: 10% auto auto 10%;
+  grid-template-areas:
+    "header header header"
+    "aside main ad"
+    "aside main ."
+    "aside footer footer"; */
+  grid-template:
+    "header header header" 10%
+    "aside main ad" auto
+    "aside main ." auto
+    "aside footer footer" 10% / 10% auto 10%;
+}
+
+header{
+  background-color: #faa;
+  grid-area: header;
+}
+
+aside{
+  background-color: #afa;
+  grid-area: aside;
+}
+
+main{
+  background-color: #faf;
+  grid-area: main;
+}
+
+.ad{
+  background-color: #aff;
+  grid-area: ad;
+}
+
+footer{
+  background-color: #aaf;
+  grid-area: footer;
+}
+
+.grid-area{
+  background-color: #aad7ff;
+  height: 600px;
+  display: grid;
+
+  grid-template-areas:
+  "navbar navbar navbar navbar"
+  "posts posts posts ad"
+  "posts posts posts .";
+}
+
+.navbar{
+  background-color: #faa;
+  grid-area: navbar;
+}
+
+/* .ad{
+  background-color: #afa;
+  grid-area: ad;
+} */
+
+.posts{
+  background-color: #aaf;
+  grid-area: posts;
+}
+
+.grid-section{
+  /* height: 600px; */
+  background-color: #aaa;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: repeat(2, auto); */
+  gap: 20px;
+}

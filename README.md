@@ -85,3 +85,13 @@
 - css 函數 (講義 p197)
 - css 三角形 (講義 p199)
 - css 偽元素 (講義 p198~p200)
+
+## 05/06 上課進度
+- css grid (講義 p211~p220)
+- css transition (講義 p201~p204)
+
+### 練習
+- [Grid 花園遊戲](https://codepip.com/games/grid-garden/)
+
+### 作業
+- [易遊網](https://www.eztravel.com.tw/) 焦點話題、日本跟團、自遊最夯
