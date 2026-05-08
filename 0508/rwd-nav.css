@@ -1,0 +1,33 @@
+header{
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #7AB793;
+}
+
+.logo{
+  height: 68px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item{
+  background-color: #4C996B;
+  line-height: 68px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.sub-menu{
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 12px;
+  width: 100%;
+  background-color: #4C996B;
+  padding: 0 20px;
+}

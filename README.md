@@ -95,3 +95,8 @@
 
 ### 作業
 - [易遊網](https://www.eztravel.com.tw/) 焦點話題、日本跟團、自遊最夯
+
+## 05/08 上課進度
+- css grid + transition 卡片練習
+- RWD media query (講義 p1~p17)
+- RWD 漢堡選單 (講義 p18~p19)
