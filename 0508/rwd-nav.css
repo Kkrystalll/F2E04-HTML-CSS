@@ -11,11 +11,11 @@ header{
   object-fit: cover;
 }
 
-.menu-input{
+.menu-input, .sub-menu-input{
   display: none;
 }
 
-.menu-bar{
+.menu-bar, .sub-menu-icon{
   display: none;
 }
 
@@ -105,17 +105,21 @@ header{
   }
 
   .nav-menu{
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
+    /* display: block; */
+  }
+
+  .menu-input:checked + .nav-menu{
     display: block;
   }
 
-  /* .menu-input:checked + .nav-menu{
-    display: block;
-  } */
+  .nav-item{
+    position: relative;
+  }
 
   .nav-item + .nav-item{
     border-top: 1px solid #fff;
@@ -130,5 +134,10 @@ header{
     display: none;
   }
 
-
+  .sub-menu-icon{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+  }
 }
