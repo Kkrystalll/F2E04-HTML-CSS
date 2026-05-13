@@ -11,6 +11,14 @@ header{
   object-fit: cover;
 }
 
+.menu-input{
+  display: none;
+}
+
+.menu-bar{
+  display: none;
+}
+
 .nav-menu{
   display: flex;
   gap: 20px;
@@ -24,10 +32,103 @@ header{
 }
 
 .sub-menu{
+  display: none;
   position: absolute;
-  top: calc(100% + 10px);
+  /* top: calc(100% + 10px); */
+  top: 100%;
   left: 12px;
   width: 100%;
   background-color: #4C996B;
+}
+
+/* .sub-menu::before{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid #4C996B;
+} */
+
+/* .sub-menu::after{
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+} */
+
+.sub-item{
   padding: 0 20px;
+  /* position: relative; */
+}
+
+/* .sub-item:hover .third-menu{
+  display: block;
+}
+
+.third-menu{
+  display: none;
+  position: absolute;
+  left: 100%;
+  top:10px;
+  width: 100%;
+  background-color: #4C996B;
+} */
+
+@media (min-width: 768px){
+  .nav-item:hover {
+    background-color: #297A4A;
+  }
+
+  .sub-item:hover {
+    background-color: #297A4A;
+  }
+
+  .nav-item:hover .sub-menu{
+    display: block;
+  }
+}
+
+@media (max-width: 767px){
+  header{
+    position: relative;
+    align-items: center;
+  }
+
+  .menu-bar{
+    display: block;
+    font-size: 36px;
+  }
+
+  .nav-menu{
+    /* display: none; */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: block;
+  }
+
+  /* .menu-input:checked + .nav-menu{
+    display: block;
+  } */
+
+  .nav-item + .nav-item{
+    border-top: 1px solid #fff;
+  }
+
+  .sub-menu-input:checked + .sub-menu{
+    display: block;
+  }
+
+  .sub-menu{
+    position: static;
+    display: none;
+  }
+
+
 }

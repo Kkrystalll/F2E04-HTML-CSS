@@ -5,14 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>手刻 header</title>
   <link rel="stylesheet" href="../reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="rwd-nav.css">
 </head>
 <body>
   <header>
     <img src="../images/kumamon.png" alt="" class="logo">
+    <label for="toggle-menu">
+      <i class="fa-solid fa-bars menu-bar"></i>
+    </label>
+    <input type="checkbox" id="toggle-menu" class="menu-input">
     <ul class="nav-menu">
       <li class="nav-item">
         找飯店
+        <input type="checkbox" id="toggle-sub-menu" class="sub-menu-input">
         <ul class="sub-menu">
           <li class="sub-item">北部</li>
           <li class="sub-item">中部</li>
@@ -21,14 +27,24 @@
       </li>
       <li class="nav-item">
         找機票
+        <input type="checkbox" id="toggle-sub-menu" class="sub-menu-input">
         <ul class="sub-menu">
-          <li class="sub-item">北部</li>
-          <li class="sub-item">中部</li>
-          <li class="sub-item">南部</li>
+          <li class="sub-item">
+            日本
+            <!-- <ul class="third-menu">
+              <li class="third-item">北海道</li>
+              <li class="third-item">大阪</li>
+              <li class="third-item">東京</li>
+              <li class="third-item">沖繩</li>
+            </ul> -->
+          </li>
+          <li class="sub-item">韓國</li>
+          <li class="sub-item">美國</li>
         </ul>
       </li>
       <li class="nav-item">
         找餐廳
+        <input type="checkbox" id="toggle-sub-menu" class="sub-menu-input">
         <ul class="sub-menu">
           <li class="sub-item">北部</li>
           <li class="sub-item">中部</li>
@@ -37,13 +53,18 @@
       </li>
       <li class="nav-item">
         找景點
+        <label for="toggle-sub-menu1">
+          <i class="fa-solid fa-angle-down sub-menu-icon"></i>
+        </label>
+        <input type="checkbox" id="toggle-sub-menu1" class="sub-menu-input">
         <ul class="sub-menu">
-          <li class="sub-item">北部</li>
-          <li class="sub-item">中部</li>
-          <li class="sub-item">南部</li>
+          <li class="sub-item">日本</li>
+          <li class="sub-item">韓國</li>
+          <li class="sub-item">美國</li>
         </ul>
       </li>
     </ul>
   </header>
+
 </body>
 </html>
