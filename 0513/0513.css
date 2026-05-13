@@ -1,0 +1,26 @@
+.container{
+  max-width: 1200px;
+  margin: 100px auto;
+  background-color: #aaa;
+}
+
+.row{
+  margin: 0 -10px;
+}
+
+.item{
+  /* background-color: #afa; */
+  /* height: 100px; */
+}
+
+.card{
+  background-color: #aff;
+  margin: 0 10px;
+}
+
+.card-img img{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+

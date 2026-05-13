@@ -100,3 +100,8 @@
 - css grid + transition 卡片練習
 - RWD media query (講義 p1~p17)
 - RWD 漢堡選單 (講義 p18~p19)
+
+## 05/13 上課進度
+- 易遊網作業 code review
+- RWD 漢堡選單 (講義 p18~p19)
+- RWD 手切格線 (講義 p20~p22)
