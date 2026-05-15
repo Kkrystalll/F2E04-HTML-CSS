@@ -1,0 +1,38 @@
+section{
+  margin: 100px;
+}
+
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: #ffbfaa;
+  animation-name: run;
+  animation-duration: 3s;
+  /* animation-fill-mode: both; */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes aaa{
+  0%{
+    transform: rotate(0deg);
+    background-color: #aff;
+  }
+
+  /* 80%{
+    transform: rotate(90deg);
+    background-color: #faa;
+  } */
+
+  100%{
+    transform: rotate(45deg);
+    background-color: #afa;
+  }
+}
+
+@keyframes run{
+  100%{
+    margin-left: calc(100% - 300px);
+  }
+}

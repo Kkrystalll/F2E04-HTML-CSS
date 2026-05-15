@@ -1,0 +1,35 @@
+section{
+  margin: 100px;
+}
+
+.accordion-list{
+  margin: 100px auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.col{
+  background-color: #afa;
+}
+
+.card-list{
+  margin: 100px auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1023px){
+  .card-list{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px){
+  .card-list{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
